@@ -8,7 +8,10 @@ This R program performs sentiment analysis on COVID-19-related tweets and analyz
 - **Data Import:** Imports COVID-19 data and tweets related to COVID-19 using the `readr` package.
 - **Data Cleaning:** Cleans and preprocesses the imported data, including removing punctuation, converting text to lowercase, and removing stopwords.
 - **Data Visualization:** Utilizes various plotting libraries such as `ggplot2`, `plotly`, and `circlize` to create informative visualizations such as time series plots of COVID-19 cases, geographical distribution of tweets, and sentiment analysis results.
-- **Sentiment Analysis:** Conducts sentiment analysis on tweets using lexicons like AFINN and Bing, and analyzes the overall sentiment and mood in tweets.
+- **Sentiment Analysis:** Conducts sentiment analysis on tweets using lexicons like AFINN, Bing and NRC and analyzes the overall sentiment and mood in tweets.
+  * Afinn: This dataset contains words scored for sentiment polarity using the AFINN-111 wordlist.
+  * Bing: This dataset contains words labeled as positive or negative from Bing Liu's opinion lexicon.
+  * NRC: This dataset contains words labeled for emotions and sentiments using the NRC Emotion Lexicon.
 - **Word Clouds:** Generates word clouds based on sentiment analysis results to visualize frequently used words and their sentiment polarity.
 - **Statistical Analysis:** Performs statistical analysis to identify significant trends and patterns in COVID-19 data and tweet sentiments.
 
@@ -44,6 +47,7 @@ The program provides insights into the sentiment around the COVID-19 pandemic ba
 ## Acknowledgments
 - The COVID-19 data used in this analysis is sourced from a curated version of 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE.
 - Twitter data is obtained from the official Twitter API.
+- The World Cities Population is obtained from [Max Mind](https://www.kaggle.com/datasets/max-mind/world-cities-database).
 
 ## License
 
